@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:rgb(1, 7, 46) ;
+}
+.İlkBanner{
+    width: 100%;
+    height: 100vh;
+}

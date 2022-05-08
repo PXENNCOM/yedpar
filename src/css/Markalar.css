@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.MarkaContainer{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+.MarkaContainer .wrapper{
+    width: 80%;
+    height: 8rem;
+    border-radius: 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(7, 73, 214, 0.25) 0px 54px 55px, rgba(7, 73, 214, 0.25) 0px -12px 30px, rgba(7, 73, 214, 0.25) 0px 4px 6px, rgba(7, 73, 214, 0.25) 0px 12px 13px, rgba(7, 73, 214, 0.25) 0px -3px 5px;
+}
+.MarkaContainer .wrapper .LogoMercedes{
+    width: 90px;
+    height: 90px;
+}
+.MarkaContainer .wrapper .LogoBmw{
+    width: 100px;
+    height: 100px;
+}
+.MarkaContainer .wrapper .LogoLandRover{
+    width: 120px;
+    height: 90px;
+}
+.MarkaContainer .wrapper .LogoMini{
+    width: 140px;
+    height: 110px;
+}
+.MarkaContainer .wrapper img:hover{
+    transform: scale(1.3);
+}

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* İMG */
+.img{
+    width: 50%;
+    height: 100vh;
+    
+}
+.img img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 0 0 0 50%;
+    box-shadow: rgb(9, 117, 233) 0px 20px 30px -10px;
+
+}
+
+
+/* DESCRİPTİON */
+.desc{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.desc::after{
+    content:url();
+    position:absolute; 
+    z-index:-100000; 
+    left:-50px;
+    top:40px;
+    opacity: .6;
+    transform: rotate(-50deg);
+  }
+.desc .size{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 4rem;
+    padding-top: 6rem;
+}
+.desc h1{
+    margin-bottom: 1rem;
+    color: #ffffff;
+    line-height: 3rem;
+}
+
+.desc h1 span{
+    color: #3c9cfd;
+}
+.desc .h1bottom{
+    margin-bottom:2rem ;
+    font-weight: 300;
+    line-height: 1.5rem;
+    font-family: 'Archivo';
+
+}
+.desc .btn{
+    width: 70%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.desc .btn a{
+    width: 45%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px 10px 40px 10px ;
+    text-decoration: none;
+   
+}
+.bizkimiz{
+    margin-left: 1rem;
+    background-color: transparent;
+    border: 2px solid #025FB2;
+    color: #025FB2;
+box-shadow: rgb(2, 38, 104) 0px 54px 55px, rgb(2, 31, 83) 0px -12px 30px,rgb(2, 35, 95) 0px 4px 6px,rgb(6, 64, 170) 0px 12px 13px,rgb(6, 64, 170) 0px -3px 5px;
+}
+.bizkimiz:hover{
+    background-color:#025FB2 ;
+    color: #fff;
+}
+.Ürünler{
+    background: #025FB2;
+    color: #fff;
+box-shadow: rgb(1, 29, 80) 0px 54px 55px, rgb(1, 30, 85) 0px -12px 30px, rgb(2, 32, 88) 0px 4px 6px, rgb(6, 64, 170) 0px 12px 13px,rgb(6, 64, 170) 0px -3px 5px;
+}
+.Ürünler:hover{
+    border: 2px solid #025FB2;
+    color: #025FB2;
+    background: none;
+}
+
+
+
+
+/* Tanıtım */
+.desc .tanıtım{
+    margin-top: 3rem;
+    display: flex;
+    width: 80%;
+    height: 6rem;
+    align-items: center;
+    justify-content: left;
+    color: #fff;
+}
+.desc .tanıtım .yuvarlak{
+    width: 30%;
+    height: 6rem;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:3rem;
+}
+
+.yuvarlak::before{
+    content: '';
+    position: relative;
+    z-index: -1; 
+    background-color: #025FB2;
+    width: 25%; 
+    left: -15px;
+    border-radius: 30px 50px 35px 60px ; 
+    height: 100px;
+    top:30px;
+    box-shadow: rgb(1, 29, 80) 0px 54px 55px, rgb(1, 30, 85) 0px -12px 30px, rgb(2, 32, 88) 0px 4px 6px, rgb(6, 64, 170) 0px 12px 13px,rgb(6, 64, 170) 0px -3px 5px;
+
+}
+.m-y{
+    margin-left:1rem;
+}
+.desc .tanıtım .pSayi{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Archivo';
+
+}
+.desc .tanıtım .pDetay{
+    font-weight: 300;
+    font-family: 'Archivo';
+    margin-top: 5px;
+    color: #69b5f8;
+}
+

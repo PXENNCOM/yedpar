@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@100;200;300;400;500;600;700;800;900&family=Thasadith:wght@700&display=swap');
+
+*{   
+    margin: 0;
+    padding: 0;
+    font-family: 'Murecho', sans-serif;
+}
+/* LOGO */
+
+
+.logo{
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.LogoP{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 50%;
+    margin-left: 4rem;
+}
+
+
+/* MENÜ */
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    background: linear-gradient(#001e3b, #003e70);
+    position: fixed;
+    z-index: 99999;
+    box-shadow: rgb(1, 67, 138) 0px 20px 30px -10px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 6rem;
+}
+.menu ul{
+    display: flex;
+    padding-left:1rem;
+    width: 100%;
+
+}
+.menu li{
+    list-style: none;
+    margin-right: 1rem;
+}
+.menu a{
+    transition: 0.9s ease;
+    color: #ffffff;
+    font-size:17px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 8px;
+}
+.menu a:hover{
+    background-color: #025FB2;
+    color: #fff;
+    border-radius: 4px 15px 2px 15px;
+}
+.İletişim{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 2px;
+    border: 0;  
+    font-size: 13px;  
+    background-color: #025FB2;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.İletişim:hover{
+    background-color: #003e70;
+}
+.İletişim i{
+    margin-right: 0.5rem;
+}

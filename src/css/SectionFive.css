@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.SectionFiveContainer{
+    width: 100%;
+    height: 40rem;
+    margin-top: 5rem;
+    position: relative;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SectionFiveContainer img{
+    position: absolute;
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+    opacity: .2;
+}
+.SectionFiveDesc{
+    z-index: 100;
+    position: absolute;
+    width: 70%;
+    height: auto;
+}
+.SectionFiveDesc h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 3rem;
+    font-family: 'Archivo';
+    font-size: 60px;
+}
+.SectionFiveDesc p{
+    text-align: center;
+    color: #fff;
+    font-family: 'Archivo';
+    line-height: 25px;
+    position: relative;
+}
+.SectionFiveDesc p::before{
+    content: '\f10d';
+    font-family: 'FontAwesome';    
+    position: absolute;
+    z-index: 0; 
+    font-size: 70px;
+    width: 7%; 
+    left: -55px;
+    border-radius: 30px 50px 5px 60px ; 
+    height: 40px;
+    top:-25px;
+}
+
+.SectionFiveDesc p::after{
+    content: '\f10d';
+    font-family: 'FontAwesome';    
+    position: absolute;
+    z-index: 0; 
+    font-size: 70px;
+    width: 7%; 
+    right: 190px;
+    border-radius: 30px 50px 5px 60px ; 
+    height: 40px;
+    bottom:-40px;
+}
+
+
